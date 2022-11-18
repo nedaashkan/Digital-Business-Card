@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #18191a;
+}
+.card-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Indie Flower", cursive;
+  text-shadow: 0 0 2px rgb(0, 255, 255);
+  color: lightgoldenrodyellow;
+  width: 750px;
+  margin: 150px auto 0;
+  padding: 20px;
+  border-bottom-right-radius: 90px;
+  border-top-left-radius: 90px;
+  box-shadow: rgba(28, 241, 231, 0.966) 0px 2px 4px,
+    rgba(28, 241, 231, 0.966) 0px 7px 13px -3px,
+    rgba(28, 241, 231, 0.966) 2px -3px 3px inset;
+}
+.card-info:hover {
+  transform: translateY(-5px);
+}
+.avatar {
+  width: 400px;
+}
+.icon {
+  font-size: 30px;
+  border: 1px solid lightgoldenrodyellow;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 3px;
+}
+.social-media-icons a {
+  color: lightgoldenrodyellow;
+}
+.instagram:hover {
+  border: 1px solid;
+  color: #e4405f;
+}
+.github:hover {
+  border: 1px solid;
+  color: rgb(196, 196, 168);
+}
+.linkedin:hover {
+  border: 1px solid;
+  color: #0072b1;
+}
+.twitter:hover {
+  border: 1px solid;
+  color: #00acee;
+}
+.discord:hover {
+  border: 1px solid;
+  color: #7289da;
+}
